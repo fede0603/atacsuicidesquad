@@ -63,7 +63,7 @@ def scrape_data():
 max_tries = 5
 seconds_for_loop = 60
 num_minuti = 150
-data_folder = r".\feeddata"
+data_folder = r"./feeddata"
 
 for tx in range(0,num_minuti+1):
 	print(tx)
