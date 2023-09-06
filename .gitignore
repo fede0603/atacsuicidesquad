@@ -1,0 +1,6 @@
+feeddata/
+rome_static_gtfs/
+.pt_tmp
+*.zip
+*.csv
+.DS_Store
