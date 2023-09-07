@@ -62,8 +62,12 @@ def scrape_data():
 
 max_tries = 5
 seconds_for_loop = 60
-num_minuti = 150
+num_minuti = 500
 data_folder = r"./extradata"
+
+
+if not os.path.exists(data_folder):
+	os.mkdir(data_folder)
 
 for tx in range(0,num_minuti+1):
 	print(tx)
